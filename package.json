@@ -1,0 +1,28 @@
+{
+  "name": "@itzkrofi/timetable-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Vulcan Optivum timetable parser.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "del-cli dist && tsc --p tsconfig.build.json",
+    "prepare": "npm run build",
+    "release": "release-it --only-version"
+  },
+  "author": "itzkrofi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "axios": "^1.12.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "domhandler": "^5.0.3"
+  }
+}
