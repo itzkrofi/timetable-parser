@@ -1,3 +1,13 @@
+# @itzkrofi/timetable-parser
+
+## Installation
+
+### PNPM (or any package manager)
+
+```bash
+pnpm add @itzkrofi/timetable-parser
+```
+
 ## Usage/Examples
 
 ### Parsing timetable index page
