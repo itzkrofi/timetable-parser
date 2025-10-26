@@ -9,7 +9,7 @@
     "/dist"
   ],
   "scripts": {
-    "build": "del-cli dist && tsc --p tsconfig.build.json",
+    "build": "tsc --p tsconfig.build.json",
     "prepare": "npm run build",
     "release": "release-it --only-version"
   },
