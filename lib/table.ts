@@ -3,7 +3,7 @@ import type { Element, AnyNode } from "domhandler";
 import { TableHour, TableLesson } from "./types";
 
 export default class Table {
-  public $: CheerioAPI;
+  $: CheerioAPI;
 
   public constructor(html: string) {
     this.$ = load(html);
