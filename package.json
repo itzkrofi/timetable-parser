@@ -1,6 +1,6 @@
 {
   "name": "@itzkrofi/timetable-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "A Vulcan Optivum timetable parser.",
   "main": "dist/index.js",
