@@ -1,7 +1,7 @@
 import { CheerioAPI, load } from "cheerio";
 import { List, ListItem } from "./types";
 
-export default class TimetableList {
+export default class TimeTableList {
   public $: CheerioAPI;
 
   public constructor(html: string) {
